@@ -1,0 +1,229 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+}
+.nav-cwlt {
+	background: #f39c12;
+	border-color: #f39c12;
+}
+.nav-cwlt .navbar-collapse {
+	border-color: #f39c12;
+}
+.nav-cwlt ul.navbar-nav > li > a {
+	text-transform: uppercase;
+}
+.nav-cwlt ul.navbar-nav > li > a,
+.nav-cwlt ul.navbar-nav > li > a:hover {
+	color: #fff;
+	font-size: 1.6em;
+}
+.nav-cwlt .easy-contact {
+	background: #383838;
+	padding: .5em;
+	font-size: 1.5em;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+.carousel-cwlt .carousel-inner {
+	height: 100vh;
+}
+.carousel-cwlt .carousel-inner img {
+	width: 100%;
+	height: 100vh;
+}
+.cwlt-heading-text {
+	margin-top: 5em;
+	margin-bottom: 5em;
+}
+.cwlt-heading-text h1 {
+	text-align: center;
+	font-size: 5em;
+}
+.cwlt-heading-text h3 {
+	text-align: center;
+	font-size: 2.5em;
+}
+.cwlt-heading-text p {
+	text-align: center;
+	font-size: 2em;
+}
+.cwlt-card {
+	text-align: center;
+}
+.cwlt-card p {
+	font-size: 1.7em;
+	line-height: 2em;
+}
+#services {
+	background: #ecf0f1;
+	margin-top: 5em;
+	padding: 2em;
+}
+#services h1 {
+	text-align: center;
+} 
+#services .services {
+	display: flex;
+	align-items: center;
+}
+#services .detail {
+	/*color: #fff;*/
+	font-size: 2em;
+}
+#services .service-image {
+	flex: 1;
+	text-align: center;
+}
+#services .detail h3 {
+	text-transform: uppercase;
+}
+#services ul li {
+	list-style: none;
+	font-weight: 300;
+}
+
+#trucks {
+	background: #f5f5f5;
+	padding-top: 3em;
+	padding-bottom: 5em;
+}
+#trucks h1 {
+	font-size: 5em;
+	text-align: center;
+}
+#trucks h3 {
+	text-align: center;
+}
+#trucks .trucks {
+	margin-top: 3em;
+	display: flex;
+}
+#trucks .cwlt-truck {
+	flex: 1;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+#trucks .cwlt-truck img {
+	width: 100%;
+}
+#trucks .cwlt-truck .request-quote {
+	border-radius: 0px;
+	font-size: 2em;
+	text-transform: uppercase;
+	width: 100%;
+	color: #fff;
+	background: #e67e22;
+	transition: 0.4s;
+}
+#trucks .cwlt-truck .request-quote:hover {
+	background: #d35400;
+}
+
+#request-quote .modal-content {
+	border-radius: 0px;
+}
+#request-quote .modal-header {
+	background: #34495e;
+}
+#request-quote .modal-header .modal-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.form-control {
+	border-radius: 0px;
+}
+textarea {
+	resize: none;
+}
+.cwlt-success {
+	font-size: 1.5em;
+	border-radius: 0px;
+	font-weight: 400;
+	text-transform: uppercase;
+	background: #1abc9c;
+	color: #fff;
+	padding: 8px 14px;
+	transition: 0.4s;
+}
+.cwlt-success:hover,
+.cwlt-success:focus {
+	background: #16a085;
+	color: #fff;
+	cursor: pointer;
+}
+
+#contact {
+	background: #ecf0f1;
+	margin-bottom: 5em;
+}
+#contact .location iframe {
+	width: 100%;
+}
+#contact .contact-form h1 {
+	margin-bottom: .5em;
+}
+
+#footer {
+	background: #34495e;
+	padding: 2em;
+	font-size: 1.6em;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	letter-spacing: .05em;
+}
+#footer .left-part {
+	flex: 1;
+}
+#footer .right-part i {
+	margin-right: .5em;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#services .services {
+		display: block;
+		align-items: initial;
+	}
+	#trucks .trucks {
+		display: block;
+	}
+	#trucks .cwlt-truck {
+		margin-top: 3em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
