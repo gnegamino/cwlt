@@ -4,8 +4,8 @@
                     Copyright @ 2018. CWLT Trucking Services. All Rights Reserved
                 </div>
                 <div class="right-part">
-                    <i class="fab fa-facebook fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-facebook fa-2x" onClick="window.open('https://www.facebook.com/cwlttruckingservices')"></i>
+                    <i class="fab fa-instagram fa-2x" onClick="window.open('https://www.instagram.com/cwlttruckingservices/')"></i>
                 </div>
             </div>
         </div>
@@ -78,8 +78,12 @@
 							<div class="form-group">
 								<select class="form-control" id="input-truck-type">
 									<option value="0">Truck Type / Model</option>
-									<option value="1">Closed Van</option>
-									<option value="2">Big Truck</option>
+									<option value="1">12 Wheeler Wing Van Trucks</option>
+									<option value="2">10 Wheeler Wing Van Truck</option>
+									<option value="3">6 Wheeler Forward Trucks (2 Wing vans and 3 Close vans)</option>
+									<option value="4">6 Wheeler Elf Trucks (3 Wing vans and 5 Close vans)</option>
+									<option value="5">4 Wheelers (3 close vans 2 FB body type)</option>
+									<option value="6">L300 (3 FB body Type and 1 close van)</option>
 								</select>
 							</div>
 						</div>
