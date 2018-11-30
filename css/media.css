@@ -12,6 +12,10 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
     .cwlt-navbar {
         display: block;
     }
@@ -41,11 +45,9 @@
     .cwlt-truck {
         padding-left: initial;
     }
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+    #about .company-ambition {
+        display: block;
+    }
 
 }
 
