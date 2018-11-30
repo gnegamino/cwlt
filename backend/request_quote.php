@@ -79,6 +79,12 @@ if (!isValidDate($pickupDate)) {
 	return;
 }
 
+$truckType = getTruck($truckType);
+if ($truckType == "") {
+	renderReponse(400, "Invalid Truck Type / Model");
+	return;
+}
+
 if (sendMail(
 	$name,
 	$company,
@@ -136,6 +142,23 @@ function isValidDate($date)
 
 	$month = $months[$month];
 	return checkdate($month, $day, $year);
+}
+
+function getTruck($truck)
+{
+	 $trucks = [
+		"1" => "12 Wheeler Wing Van Trucks",
+		"2" => "10 Wheeler Wing Van Truck",
+		"3" => "6 Wheeler Forward Trucks (2 Wing vans and 3 Close vans)",
+		"4" => "6 Wheeler Elf Trucks (3 Wing vans and 5 Close vans)",
+		"5" => "4 Wheelers (3 close vans 2 FB body type)",
+		"6" => "L300 (3 FB body Type and 1 close van)"
+	];
+
+	if (!isset($trucks[$truck])) {
+		return "";
+	}
+	return $trucks[$truck];
 }
 
 function sendMail(
