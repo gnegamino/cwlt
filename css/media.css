@@ -22,32 +22,32 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.cwlt-navbar {
-		display: block;
-	}
-	.cwlt-navbar .navbar-nav .request-quote {
-		margin-left: initial;
-	}
-	.nav-cwlt .brand-logo {
-		padding: 1.5em 0em 0em;
-	}
-	.cwlt-navbar .navbar-nav {
-		padding-right: initial;
-	}
-	.nav-cwlt ul.navbar-nav > li > a {
-		border-top-left-radius: initial;
-		border-bottom-left-radius: initial;
-	}
-	#services .services {
-		display: block;
-		align-items: initial;
-	}
-	#trucks .trucks {
-		display: block;
-	}
-	#trucks .cwlt-truck {
-		margin-top: 3em;
-	}
+    .cwlt-navbar {
+        display: block;
+    }
+    .cwlt-navbar .navbar-nav .request-quote {
+        margin-left: initial;
+    }
+    .nav-cwlt .brand-logo {
+        padding: 1.5em 0em 0em;
+    }
+    .cwlt-navbar .navbar-nav {
+        padding-right: initial;
+    }
+    .nav-cwlt ul.navbar-nav > li > a {
+        border-top-left-radius: initial;
+        border-bottom-left-radius: initial;
+    }
+    #services .services {
+        display: block;
+        align-items: initial;
+    }
+    #trucks .trucks {
+        display: block;
+    }
+    #trucks .cwlt-truck {
+        margin-top: 3em;
+    }
 }
 
 /* Large Devices, Wide Screens */
