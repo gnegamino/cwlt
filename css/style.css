@@ -6,7 +6,7 @@ body {
     font-size: 10px;
 }
 .navbar-fixed-top.scrolled {
-    background-color: rgba(46,46,46,0.7) !important;
+    background-color: rgba(46,46,46,0.7);
     transition: background-color 200ms linear;
 }
 .nav-cwlt {
@@ -296,11 +296,16 @@ textarea {
 #contact .contact-display {
     flex: 1;
 }
+#contact .location {
+    -webkit-box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68);
+    -moz-box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68);
+}
 #contact .location iframe {
     width: 100%;
 }
 #contact .contact-display {
-    padding-left: 3em;
+    padding-left: 5em;
 }
 #contact .contact-display h1 {
     margin-top: initial;
