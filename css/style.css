@@ -125,9 +125,46 @@ body {
     font-size: 1.7em;
     line-height: 2em;
 }
+#about {
+    background-image: url('/assets/road-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+#about h1,
+#about h3 {
+    text-align: center;
+}
+#about h3 {
+    margin-top: initial;
+}
+#about .company-ambition {
+    display: flex;
+}
+#about .company-ambition h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #e67e22;
+    margin-top: initial;
+}
+#about .vision,
+#about .goals,
+#about .values {
+    font-size: 1.6em;
+    margin: 1em 4em 4em 4em;
+    padding: 2em;
+    background: #fff;
+    color: #383838;
+    line-height: 2em;
+    flex: 1;
+}
+#about .goals-values {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 #services {
     background: #ecf0f1;
-    margin-top: 5em;
     padding: 2em;
 }
 #services h1 {

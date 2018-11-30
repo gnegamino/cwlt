@@ -1,6 +1,6 @@
 $('body').scrollspy({
     target: ".navbar",
-    offset: 1220
+    offset: 143
 });
 
 $('.carousel').carousel();
