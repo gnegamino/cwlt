@@ -251,3 +251,14 @@ textarea {
 #footer .right-part i {
     margin-right: .5em;
 }
+
+
+.custom-alert {
+    font-size: 17px;
+}
+
+#alert-quote-sent,
+#alert-quote-failed,
+#alert-quote-sending {
+    display: none;
+}

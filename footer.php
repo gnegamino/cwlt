@@ -9,9 +9,12 @@
                 </div>
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="//jonthornton.github.io/jquery-timepicker/jquery.timepicker.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="scripts/index.js"></script>
+        <script src="scripts/request_quote.js"></script>
     </body>
 </html>
 <!-- Request a Quote -->
@@ -24,56 +27,126 @@
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Company">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Pickup Date">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Pickup Location">
-                            </div>
-                            <div class="form-group">
-                                <select class="form-control">
-                                    <option>Truck Type / Model</option>
-                                    <option>Closed Van</option>
-                                    <option>Big Truck</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Pickup Time">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Drop Location">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Type of Cargo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <textarea class="form-control" rows="4" placeholder="Enter specific instructions, etc."></textarea>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn cwlt-success" data-dismiss="modal">Submit</button>
-            </div>
+                    <div class="alert alert-success custom-alert" id="alert-quote-sent">
+						Quote Sent!
+					</div>
+					<div class="alert alert-danger custom-alert" id="alert-quote-failed">
+						Please Complete all required fields
+					</div>
+					<div class="alert alert-info custom-alert" id="alert-quote-sending">
+	  					Sending Quote
+	  					<img src="assets/loading_small.gif">
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Name"
+									id="input-name"
+									maxlength="200"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Company"
+									id="input-company"
+									maxlength="200"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Pickup Date"
+									id="input-pickup-date"
+									maxlength="50"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Pickup Location"
+									id="input-pickup-location"
+									maxlength="200"
+								>
+							</div>
+							<div class="form-group">
+								<select class="form-control" id="input-truck-type">
+									<option value="0">Truck Type / Model</option>
+									<option value="1">Closed Van</option>
+									<option value="2">Big Truck</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Email"
+									id="input-email"
+									maxlength="100"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Phone"
+									id="input-phone"
+									maxlength="100"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Pickup Time"
+									id="input-pickup-time"
+									maxlength="100"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Drop Location"
+									id="input-drop-location"
+									maxlength="200"
+								>
+							</div>
+							<div class="form-group">
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Type of Cargo"
+									id="input-type-of-cargo"
+									maxlength="200"
+								>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<textarea
+								class="form-control"
+								rows="4"
+								placeholder="Enter specific instructions, etc."
+								id="input-other-details"
+								maxlength="600"
+							></textarea>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn cwlt-success" id="button-submit-quote">Submit</button>
+			</div>
         </div>
     </div>
 </div>
