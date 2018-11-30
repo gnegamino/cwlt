@@ -168,26 +168,45 @@ body {
 #trucks .trucks {
     margin-top: 3em;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #trucks .cwlt-truck {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    padding-top: 3em;
     padding-left: 3em;
-    padding-right: 3em;
+}
+.cwlt-truck:hover {
+    cursor: pointer;
+    animation: pulse .3s;
 }
 #trucks .cwlt-truck img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
 }
 #trucks .cwlt-truck .request-quote {
     border-radius: 0px;
     font-size: 2em;
     text-transform: uppercase;
-    width: 100%;
     color: #fff;
     background: #e67e22;
     transition: 0.4s;
 }
 #trucks .cwlt-truck .request-quote:hover {
     background: #d35400;
+}
+.album-thumbnail {
+    flex: 1;
+    display: flex;
+}
+.truck-name {
+    background: #eaeaea;
+    border: 1px #ccc solid;
+    padding: .5em;
+    font-size: 2.3em;
+    text-align: center;
 }
 
 #request-quote .modal-content {
