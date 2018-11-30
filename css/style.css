@@ -2,7 +2,7 @@ html, body {
 	height: 100%;
 }
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Chakra Petch';
 	font-size: 10px;
 }
 .navbar-fixed-top.scrolled {
@@ -194,7 +194,7 @@ body {
 	border-radius: 0px;
 }
 #request-quote .modal-header {
-	background: #34495e;
+	background: #383838;
 }
 #request-quote .modal-header .modal-title {
 	color: #fff;
@@ -250,60 +250,4 @@ textarea {
 }
 #footer .right-part i {
 	margin-right: .5em;
-}
-
-/*==================================================
-=            Bootstrap 3 Media Queries             =
-==================================================*/
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.cwlt-navbar {
-		display: block;
-	}
-	.cwlt-navbar .navbar-nav .request-quote {
-		margin-left: initial;
-	}
-	.nav-cwlt .brand-logo {
-		padding: 1.5em 0em 0em;
-	}
-	.cwlt-navbar .navbar-nav {
-		padding-right: initial;
-	}
-	.nav-cwlt ul.navbar-nav > li > a {
-		border-top-left-radius: initial;
-		border-bottom-left-radius: initial;
-	}
-	#services .services {
-		display: block;
-		align-items: initial;
-	}
-	#trucks .trucks {
-		display: block;
-	}
-	#trucks .cwlt-truck {
-		margin-top: 3em;
-	}
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
 }
