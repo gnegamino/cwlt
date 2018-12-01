@@ -2,14 +2,24 @@
 
 
 @media only screen and (max-width : 480px)
+	body
+		font-size: 5px !important
 
+@media only screen and (max-width : 767px)
+	.nav-cwlt .navbar-collapse .cwlt-navbar
+		display: block
+
+	.container-fluid div#about,
+	.container-fluid div#trucks,
+	.container-fluid div#services
+		padding-top: 15em
+
+	.container-fluid div#contact
+		padding-top: 13em
 
 @media only screen and (max-width : 768px)
-	.navbar-fixed-top.scrolled
-		background-color: rgba(46,46,46,1)
-
-	.cwlt-navbar
-		display: block
+	.nav-cwlt .navbar-collapse .cwlt-navbar
+		flex-direction: column
 
 		.request-quote
 			margin-left: initial
@@ -33,9 +43,8 @@
 
 	#trucks .cwlt-truck
 		margin-top: 3em
-
-	.cwlt-truck
-		padding-left: initial
+		padding-left: 3em
+		padding-right: 3em
 
 	#about .company-ambition
 		display: block
@@ -46,9 +55,39 @@
 	#contact .contact-display
 		margin-top: 3em
 
+	.carousel-cwlt
+		.carousel-inner
+			height: initial
+
+			img
+				height: initial
+
+	.nav-cwlt .navbar-collapse .cwlt-navbar .brand-logo img
+		height: 5vh
+
+	div#about,
+	div#trucks,
+	div#services
+		padding-top: 24em
+
+	div#contact
+		padding-top: 22em
+
 
 @media only screen and (max-width : 992px)
 
 
 @media only screen and (max-width : 1200px)
+	body
+		font-size: 7px
 
+	#services .services
+		display: block
+
+	#about,
+	#trucks,
+	#services
+		padding-top: 21em
+
+	#contact
+		padding-top: 18em

@@ -56,6 +56,13 @@
                         Business Address: 948 Kapitan Ticong St. Singalong Malate, Manila
                     </div>
                 </div>
+                <div class="contact">
+                    <div class="contact-name">Garage Location:</div>
+                    <div class="contact-details">
+                        <i class="fas fa-address-book fa-lg"></i>
+                        Muralla Industrial Park, Meycauayan, Bulacan
+                    </div>
+                </div>
             </div>
         </div>
     </div>
