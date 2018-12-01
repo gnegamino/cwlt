@@ -1,11 +1,11 @@
 <div id="services" class="row">
     <div class="cwlt-heading-text">
         <h1>OUR SERVICES</h1>
-        <h3>We offer the best truck and warehousing services</h3>
+        <h3>We offer the best truck services</h3>
     </div>
     <div class="services">
         <div class="service-image">
-            <img src="assets/service-truck.png">
+            <img src="assets/truck-services.png">
         </div>
         <div class="detail">
             <h3>Services Offered</h3>
@@ -15,7 +15,6 @@
                 <li>Safe and secure Vehicle Parking</li>
                 <li>Local collection and deliveries to various warehouses for load consolidation</li>
                 <li>Delivery Tracking through GPS Monitoring</li>
-                <li>Warehousing of products and delivery of direct seller to smaller markets</li>
             </ul>
             <h3>Logistics</h3>
             <ul>
