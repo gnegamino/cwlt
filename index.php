@@ -8,6 +8,7 @@
             require_once('landing/services.php');
             require_once('landing/fleet.php');
             require_once('landing/contact.php');
+            require_once('landing/clients.php');
         ?>
     </div>
 <?php

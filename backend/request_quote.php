@@ -179,20 +179,20 @@ function sendMail(
 	$subject = "Quote";
 	$headers = "From:".$from;
 
-	$message = "Name:".$name."\r\n";
-	$message .= "Company:".$company."\r\n";
-	$message .= "Email:".$email."\r\n";
-	$message .= "Phone:".$phone."\r\n";
+	$message = "Name: ".$name."\r\n";
+	$message .= "Company: ".$company."\r\n";
+	$message .= "Email: ".$email."\r\n";
+	$message .= "Phone: ".$phone."\r\n";
 	$message .= "\r\n\r\n";
-	$message .= "Pickup Date:".$pickupDate."\r\n";
-	$message .= "Pickup Time:".$pickupTime."\r\n";
-	$message .= "Pickup Location:".$pickupLocation."\r\n";
-	$message .= "Drop Location:".$dropLocation."\r\n";
+	$message .= "Pickup Date: ".$pickupDate."\r\n";
+	$message .= "Pickup Time: ".$pickupTime."\r\n";
+	$message .= "Pickup Location: ".$pickupLocation."\r\n";
+	$message .= "Drop Location: ".$dropLocation."\r\n";
 	$message .= "\r\n\r\n";
-	$message .= "Truk Type/Model:".$truckType."\r\n";
-	$message .= "Type Of Cargo:".$typeOfCargo."\r\n";
+	$message .= "Truck Type/Model: ".$truckType."\r\n";
+	$message .= "Type Of Cargo: ".$typeOfCargo."\r\n";
 	$message .= "\r\n\r\n";
-	$message .= "Details:".$otherDetails."\r\n";
+	$message .= "Details: ".$otherDetails."\r\n";
 
     return mail($to, $subject, $message, $headers);
 }
