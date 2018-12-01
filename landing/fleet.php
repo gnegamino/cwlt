@@ -1,6 +1,8 @@
 <div id="trucks" class="row">
-    <h1>OUR FLEET</h1>
-    <h3>We have the following types of trucks to support our day to day transactions</h3>
+    <div class="cwlt-heading-text">
+        <h1>OUR FLEET</h1>
+        <h3>We have the following types of trucks to support our day to day transactions</h3>
+    </div>
     <div class="trucks">
         <div class="cwlt-truck" data-toggle="modal" data-target="#request-quote">
             <span class="truck-name">L300 FB Type Truck</span>

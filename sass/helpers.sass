@@ -5,9 +5,40 @@ textarea
 	resize: none
 
 .cwlt-heading-text
-	margin-top: 5em
-	margin-bottom: 5em
+	margin-bottom: 3em
+	text-align: center
 
 	h1
-		text-align: center
 		font-size: 5em
+		margin: initial
+
+	h3
+		font-size: 3em
+
+.cwlt-alert
+	font-size: 1.7em
+	color: #fff
+	display: none
+	padding: 10px 12px
+	&.alert-success
+		background: #00e640
+	&.alert-danger
+		background: #d91e18
+	&.alert-info
+		background: #22a7f0
+
+.cwlt-success
+	font-size: 1.5em
+	border-radius: 0px
+	font-weight: 400
+	text-transform: uppercase
+	background: #1abc9c
+	color: #fff
+	padding: 8px 14px
+	transition: 0.4s
+
+	&:hover,
+	&:focus
+		background: #16a085
+		color: #fff
+		cursor: pointer
