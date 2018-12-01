@@ -2,6 +2,8 @@
             <div id="footer" class="row">
                 <div class="left-part">
                     Copyright @ 2018. CWLT Trucking Services. All Rights Reserved
+                    <br>
+                    Powered by Ready Blokes Development Team
                 </div>
                 <div class="right-part">
                     <i class="fab fa-facebook fa-2x" onClick="window.open('https://www.facebook.com/cwlttruckingservices')"></i>
