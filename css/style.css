@@ -10,7 +10,7 @@ body {
   transition: background-color 200ms linear; }
 
 .nav-cwlt {
-  background: rgba(46, 46, 46, 0.7);
+  background: rgba(46, 46, 46, 0.9);
   border-color: transparent; }
   .nav-cwlt .navbar-toggle,
   .nav-cwlt .navbar-toggle:focus {
@@ -83,17 +83,18 @@ body {
           background: #e74c3c;
           color: #fff; }
 
-#home .carousel-cwlt .carousel-inner {
+.carousel-cwlt .carousel-inner {
   height: 100vh; }
-  #home .carousel-cwlt .carousel-inner img {
+  .carousel-cwlt .carousel-inner img {
     width: 100%;
     height: 100vh; }
 
 #about {
+  padding-top: 17em;
   background-image: url("/assets/road-bg.jpg");
   background-size: cover;
   color: #fff;
-  padding-top: 17em; }
+  position: relative; }
   #about h1,
   #about h3 {
     text-align: center; }
@@ -124,6 +125,8 @@ body {
 #services {
   background: #ecf0f1;
   padding: 17em 3em 3em 3em; }
+  #services h1 {
+    text-align: center; }
   #services ul li {
     list-style: none;
     font-weight: 300; }
@@ -133,9 +136,8 @@ body {
     #services .services .detail {
       font-size: 2em; }
       #services .services .detail h3 {
-        text-transform: uppercase;
         color: #e67e22;
-        font-weight: 700; }
+        text-transform: uppercase; }
     #services .services .service-image {
       flex: 1;
       text-align: center; }
@@ -144,8 +146,12 @@ body {
   background: #f5f5f5;
   padding-top: 17em;
   padding-bottom: 5em; }
+  #trucks h1 {
+    font-size: 5em;
+    text-align: center; }
+  #trucks h3 {
+    text-align: center; }
   #trucks .trucks {
-    margin-top: 3em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
@@ -189,22 +195,10 @@ body {
       text-transform: uppercase;
       font-weight: 700; }
 
-.cwlt-success {
-  font-size: 1.5em;
-  border-radius: 0px;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: #1abc9c;
-  color: #fff;
-  padding: 8px 14px;
-  transition: 0.4s; }
-  .cwlt-success:hover, .cwlt-success:focus {
-    background: #16a085;
-    color: #fff;
-    cursor: pointer; }
-
 #contact {
+  padding-top: 14em;
   background: #ecf0f1;
+  margin-bottom: 5em;
   display: flex;
   flex-direction: column; }
   #contact .contact-container {
@@ -242,6 +236,14 @@ body {
             margin-right: 0.25em;
             color: #2980b9; }
 
+#clients {
+  padding: 0em 5em 5em 5em; }
+  #clients .clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+
 #footer {
   background: #34495e;
   padding: 2em;
@@ -254,7 +256,6 @@ body {
   #footer .left-part {
     flex: 1; }
   #footer .right-part i {
-    cursor: pointer;
     margin-right: 0.5em;
     transition: 0.4s; }
   #footer .right-part .fa-facebook:hover {
@@ -271,6 +272,7 @@ textarea {
   resize: none; }
 
 .cwlt-heading-text {
+  margin-bottom: 3em;
   text-align: center; }
   .cwlt-heading-text h1 {
     font-size: 5em;
@@ -289,6 +291,20 @@ textarea {
     background: #d91e18; }
   .cwlt-alert.alert-info {
     background: #22a7f0; }
+
+.cwlt-success {
+  font-size: 1.5em;
+  border-radius: 0px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #1abc9c;
+  color: #fff;
+  padding: 8px 14px;
+  transition: 0.4s; }
+  .cwlt-success:hover, .cwlt-success:focus {
+    background: #16a085;
+    color: #fff;
+    cursor: pointer; }
 
 @media only screen and (max-width: 768px) {
   .navbar-fixed-top.scrolled {
