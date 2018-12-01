@@ -6,28 +6,21 @@
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
             </ol>
-
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="assets/truck1.jpg" alt="...">
-                    <div class="carousel-caption">
-                        <h3></h3>
-                        <p>...</p>
-                    </div>
+                    <img src="assets/slider_1.png">
                 </div>
                 <div class="item">
-                    <img src="assets/truck2.jpg" alt="...">
-                    <div class="carousel-caption">
-                    ...
-                    </div>
+                    <img src="assets/slider_2.png">
                 </div>
                 <div class="item">
-                    <img src="assets/truck3.jpg" alt="...">
-                    <div class="carousel-caption">
-                    ...
-                    </div>
+                    <img src="assets/slider_3.png">
+                </div>
+                <div class="item">
+                    <img src="assets/slider_4.png">
                 </div>
             </div>
             <!-- Controls -->
