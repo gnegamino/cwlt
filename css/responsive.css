@@ -1,0 +1,82 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 5px !important; } }
+@media only screen and (max-width: 767px) {
+  .nav-cwlt .navbar-collapse .cwlt-navbar {
+    display: block; }
+
+  .container-fluid div#about,
+  .container-fluid div#trucks,
+  .container-fluid div#services {
+    padding-top: 15em; }
+
+  .container-fluid div#contact {
+    padding-top: 13em; } }
+@media only screen and (max-width: 768px) {
+  .nav-cwlt .navbar-collapse .cwlt-navbar {
+    flex-direction: column; }
+    .nav-cwlt .navbar-collapse .cwlt-navbar .request-quote {
+      margin-left: initial; }
+
+  .nav-cwlt .brand-logo {
+    padding: 1.5em 0em 0em; }
+
+  .cwlt-navbar .navbar-nav {
+    padding-right: initial; }
+
+  .nav-cwlt ul.navbar-nav > li > a {
+    border-top-left-radius: initial;
+    border-bottom-left-radius: initial; }
+
+  #services .services {
+    display: block;
+    align-items: initial; }
+
+  #trucks .trucks {
+    display: block; }
+
+  #trucks .cwlt-truck {
+    margin-top: 3em;
+    padding-left: 3em;
+    padding-right: 3em; }
+
+  #about .company-ambition {
+    display: block; }
+
+  #contact .contact-container {
+    display: block; }
+
+  #contact .contact-display {
+    margin-top: 3em; }
+
+  .carousel-cwlt .carousel-inner {
+    height: initial; }
+    .carousel-cwlt .carousel-inner img {
+      height: initial; }
+
+  .nav-cwlt .navbar-collapse .cwlt-navbar .brand-logo img {
+    height: 5vh; }
+
+  div#about,
+  div#trucks,
+  div#services {
+    padding-top: 24em; }
+
+  div#contact {
+    padding-top: 22em; } }
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 7px; }
+
+  #services .services {
+    display: block; }
+
+  #about,
+  #trucks,
+  #services {
+    padding-top: 21em; }
+
+  #contact {
+    padding-top: 18em; } }
+
+/*# sourceMappingURL=responsive.css.map */
