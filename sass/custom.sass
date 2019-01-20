@@ -1,0 +1,334 @@
+html, body
+	height: 100%
+
+body
+	font-family: 'Chakra Petch'
+	font-size: 10px
+
+.navbar-fixed-top.scrolled
+	background-color: rgba(46,46,46,1)
+	transition: background-color 200ms linear
+
+.nav-cwlt
+	background: rgba(46,46,46,0.9)
+	border-color: transparent
+
+	.navbar-toggle,
+	.navbar-toggle:focus
+		border-color: #d35400
+		border-bottom-width: 2px
+		background: #f39c12
+		transition: 0.4s
+
+	.navbar-toggle
+		&:hover
+			background: #d35400
+
+		.icon-bar
+			background: #fff
+
+	.easy-contact
+		background: #383838
+		padding: .5em
+		font-size: 1.5em
+		color: #fff
+		display: flex
+		justify-content: flex-end
+		align-items: center
+
+	.navbar-collapse
+		border-color: transparent
+
+		.cwlt-navbar
+			display: flex
+			justify-content: space-between
+			align-items: center
+
+			.brand-logo
+				display: flex
+				padding: 1.5em 0em
+
+				img
+					height: 10vh
+
+				div
+					color: #fff
+					font-size: 1.5em
+					font-family: 'Exo 2', sans-serif
+					font-weight: 400
+
+			.brand-name
+				display: flex
+				flex-direction: column
+				justify-content: center
+				margin-left: 1.2em
+
+			.navbar-nav
+				padding-right: 1em
+				> .cwlt-navlink > a
+					text-transform: uppercase
+					border-top-left-radius: 8px
+					border-bottom-right-radius: 8px
+					color: #fff
+					font-size: 1.5em
+
+					&:hover,
+					&:focus
+						color: #fff
+						font-size: 1.5em
+
+				> .active > a,
+				> .active > a:focus,
+				> .active > a:hover
+					background-color: #f39c12
+					color: #fff
+
+			.request-quote
+				font-size: 1.5em
+				margin-left: 1em
+
+				a
+					text-transform: uppercase
+					border-top-left-radius: 8px
+					border-bottom-right-radius: 8px
+				a,
+				a:focus
+					background: #ecf0f1
+					color: #3C3939
+					transition: 0.4s
+
+				a:hover
+					background: #e74c3c
+					color: #fff
+
+
+.carousel-cwlt
+	.carousel-inner
+		height: 100vh
+
+		img
+			width: 100%
+			height: 100vh
+
+#about
+	padding-top: 17em
+	background-image: url('/assets/road-bg.jpg')
+	background-size: cover
+	color: #fff
+	position: relative
+
+	h1,
+	h3
+		text-align: center
+
+	h3
+		margin-top: initial
+
+	.company-ambition
+		display: flex
+
+		h2
+			font-size: 2em
+			text-transform: uppercase
+			color: #e67e22
+			margin-top: initial
+
+		.vision,
+		.goals,
+		.values
+			font-size: 1.6em
+			margin: 1em 4em 4em 4em
+			padding: 2em
+			background: #fff
+			color: #383838
+			line-height: 2em
+			flex: 1
+
+		.goals-values
+			flex: 1
+			display: flex
+			flex-direction: column
+
+#services
+	background: #ecf0f1
+	padding: 17em 3em 3em 3em
+
+	h1
+		text-align: center
+
+	ul
+		li
+			list-style: none
+			font-weight: 300
+
+	.services
+		display: flex
+		align-items: center
+
+		.detail
+			font-size: 2em
+
+			h3
+				color: #e67e22
+				text-transform: uppercase
+
+		.service-image
+			flex: 1
+			text-align: center
+
+			img
+				width: 100%
+
+#trucks
+	background: #f5f5f5
+	padding-top: 17em
+	padding-bottom: 5em
+
+	h1
+		font-size: 5em
+		text-align: center
+
+	h3
+		text-align: center
+
+	.trucks
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+
+		.cwlt-truck
+			display: flex
+			flex-direction: column
+			flex-basis: 21%
+			padding-top: 3em
+			padding-left: 3em
+
+			&:hover
+				cursor: pointer
+				animation: pulse .3s
+
+			img
+				width: 100%
+				height: 250px
+
+			.album-thumbnail
+				flex: 1
+				display: flex
+
+			.truck-name
+				background: #eaeaea
+				border: 1px #ccc solid
+				padding: .5em
+				font-size: 2.3em
+				text-align: center
+
+			.request-quote
+				border-radius: 0px
+				font-size: 2em
+				text-transform: uppercase
+				color: #fff
+				background: #e67e22
+				transition: 0.4s
+
+				&:hover
+					background: #d35400
+
+#request-quote
+	.modal-content
+		border-radius: 0px
+		.modal-header
+			background: #383838
+
+			.modal-title
+				color: #fff
+				text-transform: uppercase
+				font-weight: 700
+
+#contact
+	padding-top: 14em
+	background: #ecf0f1
+	margin-bottom: 5em
+	display: flex
+	flex-direction: column
+
+	.contact-container
+		padding: 3em
+		flex: 1
+		display: flex
+		align-items: center
+
+		.location
+			flex: 1
+			-webkit-box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68)
+			-moz-box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68)
+			box-shadow: 0px 9px 51px -8px rgba(0,0,0,0.68)
+
+			iframe
+				width: 100%
+
+		.contact-display
+			flex: 1
+			padding-left: 5em
+
+			h1
+				margin-top: initial
+				margin-bottom: .5em
+
+			.contact
+				margin-top: 2em
+				line-height: 2em
+
+				.contact-name
+					font-size: 2em
+					color: #e67e22
+
+				.contact-designation
+					font-size: 1.7em
+
+				.contact-details
+					font-size: 1.6em
+					margin-top: .2em
+					display: flex
+					align-items: center
+
+					>
+						i
+							margin-right: .25em
+							color: #2980b9
+
+#clients
+	padding: 0em 5em 5em 5em
+	.clients
+		display: flex
+		align-items: center
+		justify-content: space-evenly
+		flex-wrap: wrap
+		.client-image
+			max-width: 100%
+
+#footer
+	background: #34495e
+	padding: 2em
+	font-size: 1.6em
+	color: #fff
+	display: flex
+	justify-content: space-between
+	align-items: baseline
+	letter-spacing: .05em
+
+	.left-part
+		flex: 1
+
+	.right-part
+		i
+			margin-right: .5em
+			transition: 0.4s
+			cursor: pointer
+
+		.fa-facebook:hover
+			animation: pulse .3s
+			color: #6095ff
+
+		.fa-instagram:hover
+			animation: pulse .3s
+			color: #ff2d9d
