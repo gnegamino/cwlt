@@ -54,6 +54,7 @@
                             <li class="cwlt-navlink" ><a href="#about">About Us</a></li>
                             <li class="cwlt-navlink" ><a href="#services">Services</a></li>
                             <li class="cwlt-navlink" ><a href="#trucks">Our Fleet</a></li>
+                            <li class="cwlt-navlink" ><a href="#careers">Careers</a></li>
                             <li class="cwlt-navlink" ><a href="#contact">Contact Us</a></li>
                             <li class="request-quote"><a href="#" data-toggle="modal" data-target="#request-quote">Request A Quote</a></li>
                         </ul>
