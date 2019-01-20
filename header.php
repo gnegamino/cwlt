@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="easy-contact">
                         <i class="fas fa-phone-square fa-lg"></i>&nbsp;
-                        (+63) 917-823714
+                        (+63) 917-8237143
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <i class="fas fa-envelope-square fa-lg"></i>&nbsp;
                         cwlttruckingservices@gmail.com

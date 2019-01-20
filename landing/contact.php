@@ -12,7 +12,7 @@
                     <div class="contact-designation">Owner, Sole Proprietor</div>
                     <div class="contact-details">
                         <i class="fas fa-phone-square fa-lg"></i>
-                        Phone Number: (+63) 917-823714
+                        Phone Number: (+63) 917-8237143
                     </div>
                     <div class="contact-details">
                         <i class="fas fa-envelope-square fa-lg"></i>
