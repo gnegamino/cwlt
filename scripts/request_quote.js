@@ -31,18 +31,6 @@ $(function() {
 			return;
 		}
 
-		if ($.trim(inputPickupDate) == "") {
-			$("#alert-quote-failed").html("Please input Pickup Date");
-			$("#alert-quote-failed").show();
-			return;
-		}
-
-		if ($.trim(inputPickupLocation) == "") {
-			$("#alert-quote-failed").html("Please input Pickup Location");
-			$("#alert-quote-failed").show();
-			return;
-		}
-
 		if ($.trim(inputTruckType) == "" || inputTruckType == "0" || inputTruckType == 0) {
 			$("#alert-quote-failed").html("Please select Truck Type / Model");
 			$("#alert-quote-failed").show();
@@ -57,18 +45,6 @@ $(function() {
 
 		if ($.trim(inputPhone) == "") {
 			$("#alert-quote-failed").html("Please input Phone Contact");
-			$("#alert-quote-failed").show();
-			return;
-		}
-
-		if ($.trim(inputPickupTime) == "") {
-			$("#alert-quote-failed").html("Please input Pickup Time");
-			$("#alert-quote-failed").show();
-			return;
-		}
-
-		if ($.trim(inputDropLocation) == "") {
-			$("#alert-quote-failed").html("Please input Drop Location");
 			$("#alert-quote-failed").show();
 			return;
 		}
