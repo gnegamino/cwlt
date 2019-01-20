@@ -36,14 +36,7 @@ if (strlen($company) < 1) {
 	renderReponse(400, "Please input company");
 	return;
 }
-if (strlen($pickupDate) < 1) {
-	renderReponse(400, "Please input pickup date");
-	return;
-}
-if (strlen($pickupLocation) < 1) {
-	renderReponse(400, "Please input pickup location");
-	return;
-}
+
 if ($truckType == "0") {
 	renderReponse(400, "Please select truck type or model");
 	return;
@@ -56,14 +49,7 @@ if (strlen($phone) < 1) {
 	renderReponse(400, "Please input phone contact");
 	return;
 }
-if (strlen($pickupTime) < 1) {
-	renderReponse(400, "Please indicate pickup time");
-	return;
-}
-if (strlen($dropLocation) < 1) {
-	renderReponse(400, "Please input location");
-	return;
-}
+
 if (strlen($typeOfCargo) < 1) {
 	renderReponse(400, "Please indicate type of cargo");
 	return;
@@ -71,11 +57,6 @@ if (strlen($typeOfCargo) < 1) {
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 	renderReponse(400, "Please input valid Email");
-	return;
-}
-
-if (!isValidDate($pickupDate)) {
-	renderReponse(400, "Please input valid Pick up Date");
 	return;
 }
 
