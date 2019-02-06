@@ -1,0 +1,26 @@
+{
+  "name": "cwlt",
+  "version": "1.0.0",
+  "description": "CWLT Trucking Services Website",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "sass-compile": "node-sass sass/style.sass css/style.css",
+    "sass-compile-watch": "node-sass sass/style.sass css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnegamino/cwlt.git"
+  },
+  "author": "Gian Egamino, Jonel Zape",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnegamino/cwlt/issues"
+  },
+  "homepage": "https://github.com/gnegamino/cwlt#readme"
+}
